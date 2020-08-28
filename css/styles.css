@@ -22,6 +22,14 @@ h1{
 h2{
     text-align: center;
     }
-.about us{
+.about{
         text-align: center;
 }
+.services{
+    background-image: url('../img/s_image.jpg');
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+    padding: 100px;
+} 

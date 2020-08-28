@@ -1,4 +1,4 @@
-.logo{
+.cover{
     background-image: url('../images/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,8 +14,14 @@ p{
 h1{
     color: white;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
 }
-.logo img:last-child{
-    padding: 150px;
+.cover img:last-child{
+    padding: 120px;
+}
+h2{
+    text-align: center;
+    }
+.about us{
+        text-align: center;
 }

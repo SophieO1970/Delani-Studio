@@ -40,6 +40,7 @@ h2{
 .col-space{
     margin-top:20px;
     margin-bottom:20px;
-
-
+}
+#design-a,#development-a,#product-a{
+    display: none;
 }

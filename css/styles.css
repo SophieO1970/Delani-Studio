@@ -60,3 +60,15 @@ display:none;
 color:black;
 font-size: 20px;
 }
+.project2{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+}

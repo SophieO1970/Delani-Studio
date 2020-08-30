@@ -5,8 +5,7 @@
 
 ## Description
 
-- Delani studio project is a project that implements everything learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
-
+- Delani studio project is a basic website project for displaying the kind of work the studio offers and a form to reach out to them.
 # Setup Instruction
 ## First Method
 1. In the terminal Navigate to the directory you want the project to reside in e.g (cd-/Desktop)
@@ -24,7 +23,11 @@
 
 # Behavior Driven Development
 
-A website that allows users to be able to associate with studio.
+| Behaviour | Input | Output |
+| ----------- | ----------- | ----------- |
+| Enter your name | Sophia Olonde|
+| Enter your Email Address | sophieolondie@gmail.com |
+| Enter your comment| I would like to work with you|Pop up Hello! sophie, We have received your message. Thank you for reaching out to us.  |
 
 # Technologies Used
 

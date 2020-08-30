@@ -1,0 +1,156 @@
+body{
+    font-family: 'Alata', sans-serif;
+}
+.cover{
+    background-image: url('../images/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    text-align: center;
+    padding: 200px;
+    color: white;
+}
+p{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.cover img:last-child{
+    padding: 120px;
+}
+h2{
+    text-align: center;
+    font-size: bold;
+    }
+.about{
+        text-align: center;
+}
+.services{
+    background-image: url('../images/s_image.jpg');
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+.portfolio {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 16%;
+    text-align: center;
+  }
+.what-we-do{
+    text-align: center;
+    height: 250px;
+}
+.col-space{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#design-a,#development-a,#product-a{
+    display: none;
+}
+.nad1,
+.nad2,
+.nad3,
+.nad4,
+.nad5,
+.nad6,
+.nad7,
+.nad8{
+  position: relative;
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  text-align: justify;
+  padding: 2px;
+  display: none;
+}
+.contact{
+    background-image: url('../images/c_image.jpg');
+    background-size: cover;
+    height:500px;
+    width: 100%;
+}
+#transparent {
+    background-color: transparent;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    color: white;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical ;
+   }
+   #jambo ::placeholder {
+    color: white;
+}
+   #jambo input{
+    color: white;
+    background-color: transparent;
+   }
+   .icon{
+       padding: 20px;
+   }
+   .footer{
+       text-align:center;
+       margin-top: 50px;
+   }
+   .footer img{
+       margin: 10px;
+   }
+   .col-md-3 p {
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+  }
+  @media only screen and (max-width: 620px) {
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6,
+    .project7,
+    .project8{
+      width: 100%;
+      height: 100%;
+      padding: 30%;
+    }
+
+  }

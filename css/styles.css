@@ -119,3 +119,9 @@ font-size: 20px;
     color:black;
     font-size: 20px;
 }
+.six{
+    background-image: url('../images/c_image.jpg');
+    background-size: cover;
+    height:500px;
+    width: 100%;
+}

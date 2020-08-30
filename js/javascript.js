@@ -21,8 +21,6 @@ $(document).ready(function () {
     };
 });
 
-
-
 function contact(form) {
     var name = document.forms["form2"]["name"].value;
     var email = document.forms["form2"]["email"].value;

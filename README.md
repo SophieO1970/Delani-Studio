@@ -5,13 +5,13 @@ Sophia Olonde
 
 ## Description
 
-- Delani studio is a project 
+- Delani studio project is a project that implements everything learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
 
 # Setup Instruction
 ## First Method
 1. In the terminal Navigate to the directory you want the project to reside in e.g (cd-/Desktop)
 
-2. Clone the project (https://github.com/SophieO1970/Ghana-Akan-Names.git)
+2. Clone the project (https://github.com/SophieO1970/Delani-Studio.git)
 
 3. Open the project with a text editor eg vscode(code .)
 
@@ -24,12 +24,7 @@ Sophia Olonde
 
 # Behavior Driven Development
 
-An appliaction that allows users to enter their gender and date of birth and come up with their Ghanaian name
-
-| Input (Gender) | Input (Date Of Birth) | Calculated Day of Birth | Output(Akan-name) |
-| ----------- | ----------- | ----------- | ----------- |
-| Female | 19-8-2020 | Wednesday | Akua |
-| Male | 19-8-2020 | Wednesday | Kwaku |
+A website that allows users to be able to associate with studio.
 
 # Technologies Used
 
@@ -39,9 +34,12 @@ An appliaction that allows users to enter their gender and date of birth and com
 | Css| For styling and designing the website|
 | Javascript | For functionality of the website|
 | Bootsrap | For UI interface elements such as buttons and forms |
+| jQuery| Foro making it much easier to use JavaScript on the website. it takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. |
+| Google fonts | For giving the website presentable fonts for easy reading|
+
 
 # Contact
-Incase of any questions ,feedback,comment or contribution, kindly reach me via.
+- Incase of any questions ,feedback,comment or contribution, kindly reach me via.
 
 Email
 
@@ -52,7 +50,6 @@ Phone Number
 +254710272763
 
 # License
-
-[MIT](https://github.com/sophieO1970/Ghana-Akan-Names/blob/master/LICENSE)
+- [MIT](https://github.com/SophieO1970/Delani-Studio.git/blob/master/LICENSE)
 
 Copyright (c) 2020 SophieO1970

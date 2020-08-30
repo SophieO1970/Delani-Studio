@@ -55,19 +55,34 @@ $(document).ready(function () {
     }).mouseout(function () {
         $('.project4').hide();
     });
-});       
-$(document).ready(function(){
+});
+$(document).ready(function () {
     $('.nad5').mouseover(function () {
-          $('.project5').show();
-      }).mouseout(function () {
-          $('.project5').hide();
-      });
+        $('.project5').show();
+    }).mouseout(function () {
+        $('.project5').hide();
     });
+});
 
-    $(document).ready(function(){
-      $('.nad6').mouseover(function () {
-            $('.project6').show();
-        }).mouseout(function () {
-            $('.project6').hide();
-        });
-      });
+$(document).ready(function () {
+    $('.nad6').mouseover(function () {
+        $('.project6').show();
+    }).mouseout(function () {
+        $('.project6').hide();
+    });
+});
+$(document).ready(function () {
+    $('.nad7').mouseover(function () {
+        $('.project7').show();
+    }).mouseout(function () {
+        $('.project7').hide();
+    });
+});
+
+$(document).ready(function () {
+    $('.nad8').mouseover(function () {
+        $('.project8').show();
+    }).mouseout(function () {
+        $('.project8').hide();
+    });
+});

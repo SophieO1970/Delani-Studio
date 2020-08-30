@@ -41,3 +41,18 @@ $(document).ready(function(){
               $('.project2').hide();
           });
         });
+        $(document).ready(function(){
+            $('.nad3').mouseover(function () {
+                  $('.project3').show();
+              }).mouseout(function () {
+                  $('.project3').hide();
+              });
+            });
+            
+            $(document).ready(function(){
+              $('.nad4').mouseover(function () {
+                    $('.project4').show();
+                }).mouseout(function () {
+                    $('.project4').hide();
+                });
+              });       

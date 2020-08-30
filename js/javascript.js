@@ -27,6 +27,21 @@ $(document).ready(function () {
     });
 });
 
+// $(document).ready(function(){
+//     var four= ["design", "development", "product management"]
+//     four.forEach(function (four) {
+//         $("#" + four).click(function () {
+//           $("#" + four).hide();
+//           $("#" + four + "-def").show();
+//         });
+    
+//         $("#" + four + "-def").click(function () {
+//           $("#" + four).show();
+//           $("#" + four + "-def").hide();
+//         });
+//       });
+// });
+
 $(document).ready(function () {
     $('.nad').mouseover(function () {
         $('.project').show();

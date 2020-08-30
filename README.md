@@ -1,7 +1,7 @@
 # Delani-Studio
 ## Author
 
-Sophia Olonde
+**Sophia Olonde**
 
 ## Description
 

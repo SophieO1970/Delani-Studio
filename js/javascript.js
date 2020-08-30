@@ -86,3 +86,9 @@ $(document).ready(function () {
         $('.project8').hide();
     });
 });
+function contact(form){
+    var name = document.forms["form2"]["name"].value;
+        var email = document.forms["form2"]["email"].value;
+        var message = document.forms["form2"]["message"].value;
+        alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
+          };

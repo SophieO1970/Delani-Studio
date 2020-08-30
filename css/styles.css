@@ -140,3 +140,13 @@ textarea {
     margin-bottom: 16px;
     resize: vertical ;
    }
+   #jambo ::placeholder {
+    color: white;
+}
+   #jambo input{
+    color: white;
+    background-color: transparent;
+   }
+   .icon{
+       padding: 20px;
+   }

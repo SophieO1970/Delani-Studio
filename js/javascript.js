@@ -25,24 +25,19 @@ $(document).ready(function () {
         $("#product-pic").show();
         $("#product-a").hide();
     });
-    // $("#product-pic").click(function () {
-    //     $(".product-a").hide(1500).toggle();
-    //     $("#product-pic").slideUp();
-    // });
-    // $(".product-a").click(function () {
-    //     $("#product-pic").slideDown();
-    //     $(".product-a").hide();
-    // })
-
-    // $("#development-pic").click(function () {
-    //     $(".development-a").hide(1500).toggle();
-    //     $("#develop-pic").slideUp();
-    // });
-    // $(".development-a").click(function () {
-    //     $("#development-pic").slideDown();
-    //     $(".development-a").hide();
-    // })
-
-
-
 });
+
+$(document).ready(function(){
+    $('.nad').mouseover(function () {
+          $('.project').show();
+      }).mouseout(function () {
+          $('.project').hide();
+      });
+    });
+    $(document).ready(function(){
+        $('.nad2').mouseover(function () {
+              $('.project2').show();
+          }).mouseout(function () {
+              $('.project2').hide();
+          });
+        });

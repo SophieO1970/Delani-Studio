@@ -26,10 +26,10 @@ h2{
     text-align: center;
     font-size: bold;
     }
-.two{
+.about{
         text-align: center;
 }
-.three{
+.services{
     background-image: url('../images/s_image.jpg');
     background-size: cover;
     height: 250px;
@@ -37,7 +37,7 @@ h2{
     color: white;
     padding: 80px;
 }
-.four{
+.what-we-do{
     text-align: center;
     height: 250px;
 }
@@ -48,7 +48,7 @@ h2{
 #design-a,#development-a,#product-a{
     display: none;
 }
-.project,.project2,.project3,.project4,.project5,.project6,.project7,.project8{
+.project1,.project2,.project3,.project4,.project5,.project6,.project7,.project8{
     width: 320px;
     height: 270px;
     background-color:white;
@@ -59,7 +59,7 @@ h2{
     color:black;
     font-size: 20px;
 }
-.six{
+.contact{
     background-image: url('../images/c_image.jpg');
     background-size: cover;
     height:500px;
@@ -93,4 +93,7 @@ textarea {
    .footer{
        text-align:center;
        margin-top: 50px;
+   }
+   .footer img{
+       margin: 10px;
    }

@@ -25,10 +25,10 @@ h1{
 h2{
     text-align: center;
     }
-.about{
+.two{
         text-align: center;
 }
-.services{
+.three{
     background-image: url('../images/s_image.jpg');
     background-size: cover;
     height: 250px;
@@ -36,10 +36,9 @@ h2{
     color: white;
     padding: 80px;
 }
-.work{
+.four{
     text-align: center;
     height: 250px;
-    font-size: 10px;
 }
 .col-space{
     margin-top:20px;
@@ -48,7 +47,19 @@ h2{
 #design-a,#development-a,#product-a{
     display: none;
 }
-.project{
+.project,.project2,.project3,.project4{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+}
+/* .project{
 width: 320px;
 height: 270px;
 background-color:white;
@@ -95,7 +106,7 @@ font-size: 20px;
     display:none;
     color:black;
     font-size: 20px;
-}
+} */
 .project5,.project6,.project7,.project8{
     width: 320px;
     height: 270px;

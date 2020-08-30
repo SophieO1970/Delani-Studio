@@ -48,16 +48,21 @@ h2{
 #design-a,#development-a,#product-a{
     display: none;
 }
+.nad1,.nad2,.nad3,.nad4,.nad5,.nad6,.nad7,.nad8{
+  position: relative;
+}
 .project1,.project2,.project3,.project4,.project5,.project6,.project7,.project8{
-    width: 320px;
-    height: 270px;
-    background-color:white;
-    opacity: 0.6;
-    position: absolute;
-    top: 0.0em;
-    display:none;
-    color:black;
-    font-size: 20px;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  text-align: justify;
+  padding: 2px;
+  display: none;
 }
 .contact{
     background-image: url('../images/c_image.jpg');
@@ -97,3 +102,8 @@ textarea {
    .footer img{
        margin: 10px;
    }
+   .col-md-3 p {
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+  }

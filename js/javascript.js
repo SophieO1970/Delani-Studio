@@ -1,26 +1,25 @@
-$(document).ready(function(){
-    var services= ["design", "development", "product"]
+$(document).ready(function () {
+    var services = ["design", "development", "product"]
     services.forEach(function (service) {
         $("#" + service).click(function () {
-          $("#" + service).hide();
-          $("#" + service+ "-a").show();
+            $("#" + service).hide();
+            $("#" + service + "-a").show();
         });
-    
-        $("#" + service + "-a").click(function () {
-          $("#" + service).show();
-          $("#" + service + "-a").hide();
-        });
-      });
-});
-for (let i = 1; i < 9; i++) {
-    $(".nad" + i).mouseover(function () {
-      $(".project" + i).show();
-    });
-    $(".nad" + i).mouseout(function () {
-      $(".project" + i).hide();
-    });
-};
 
+        $("#" + service + "-a").click(function () {
+            $("#" + service).show();
+            $("#" + service + "-a").hide();
+        });
+    });
+    for (let i = 1; i < 9; i++) {
+        $(".nad" + i).mouseover(function () {
+            $(".project" + i).show();
+        });
+        $(".nad" + i).mouseout(function () {
+            $(".project" + i).hide();
+        });
+    };
+});
 
 
 
